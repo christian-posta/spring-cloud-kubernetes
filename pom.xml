@@ -87,6 +87,7 @@
         <junit.version>4.12</junit.version>
 
         <!-- Maven Plugin Versions -->
+        <fabric8-maven-plugin.version>3.1-SNAPSHOT</fabric8-maven-plugin.version>
         <maven-compiler-plugin.version>3.5</maven-compiler-plugin.version>
         <gmavenplus-plugin.version>1.2</gmavenplus-plugin.version>
         <sundrio-plugin.vesion>0.3.4</sundrio-plugin.vesion>
@@ -169,6 +170,13 @@
                 <groupId>io.fabric8</groupId>
                 <artifactId>spring-cloud-kubernetes-zipkin</artifactId>
                 <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.fabric8</groupId>
+                <artifactId>fabric8-maven-plugin</artifactId>
+                <version>${fabric8-maven-plugin.version}</version>
+                <scope>provided</scope>
             </dependency>
 
 

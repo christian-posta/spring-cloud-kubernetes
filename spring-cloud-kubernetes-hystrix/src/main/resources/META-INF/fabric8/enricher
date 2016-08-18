@@ -1,0 +1,3 @@
+
+# add labels to k8s services to enable hystrix
+io.fabric8.maven.enricher.hystrix.HystrixLabelEnricher
